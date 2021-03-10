@@ -1,11 +1,11 @@
 public class MessageRenderer {
-    private String meesage;
+    private Message meesage;
 
-    public MessageRenderer(String meesage) {
+    public MessageRenderer(Message meesage) {
         this.meesage = meesage;
     }
 
     public void printMessage(){
-        System.out.println(meesage);
+        System.out.println(meesage.getText());
     }
 }
